@@ -38,7 +38,6 @@ function typeJs() {
     textArray = typeJsText.dataset.typetext.split("");
   } else {
     textArray.pop();
-    
   }
 }
 
