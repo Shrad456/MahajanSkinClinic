@@ -38,10 +38,7 @@ function typeJs() {
     textArray = typeJsText.dataset.typetext.split("");
   } else {
     textArray.pop();
-    typeJsText.innerHTML = textArray.join("");
-    if (textArray.length == 0) {
-      counter = -1;
-    }
+   
   }
 }
 
